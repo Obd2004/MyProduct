@@ -1,0 +1,78 @@
+.questions{
+    margin-top: 149px;
+    &__title{
+        text-align: center;
+        h1{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 34px;
+            line-height: 51px;
+            color: #22343D;
+        }
+        p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: #22343D;
+        }
+    }
+    &__lines{
+        li{
+            display: flex;
+            border-bottom: 1px solid #d6cfcf;
+            img{
+                width: 24px;
+                height: 24px;
+                margin-top: 18px;
+            }
+            p{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 27px;
+                color: #22343D;
+                margin-left: 15px;
+                margin-top: 16px;
+            }
+        }
+    }
+    &__product{
+        width: 968px;
+        background: #02897A;
+        border-radius: 32px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 157px;
+        &__left{
+            margin-left: 51px;
+            h1{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 32px;
+                line-height: 151.4%;
+                color: #FFFFFF;
+            }
+            button{
+                background: #FFFFFF;
+                border-radius: 8px;
+                width: 150px;
+                height: 50px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 20px;
+                line-height: 30px;
+                border: none;
+                color: #02897A;
+                margin-top: 88px;
+            }
+        }
+    }
+}

@@ -1,0 +1,120 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        &__list{
+            list-style-type: none;
+            display: flex;  
+            margin-left: 200px;
+            a{
+                text-decoration: none;
+                margin: 15px;
+                color: #22343D;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                color: #22343D;
+            }
+        }
+        &__btns{
+            padding: 15px;
+            button{
+                width: 102px;
+                height: 43px;
+                margin-right: 24px;
+                border: 1px solid #BCD0E5;
+                
+            }
+            &-btn1{
+                background: transparent;
+                color: #173A56;
+                border-radius: 4px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+            }
+            &-btn2{
+                background: transparent;
+                border-radius: 4px;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+                color: #173A56;
+                margin-right: 6px;
+            }
+            .hamburger_icon{
+                font-size: 20px;
+                display: none;
+            }
+        }
+    }
+}
+
+@media (max-width: 415px){
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        &__wrapper{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &__list{
+                list-style-type: none;
+                display: none;
+                a{
+                    text-decoration: none;
+                    margin: 15px;
+                    color: #22343D;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #22343D;
+                }
+            }
+            &__btns{
+                display: flex;
+                &-btn1{
+                    background: transparent;
+                    color: #173A56;
+                    border-radius: 4px;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 24px;
+                    display: none;
+
+                }
+                &-btn2{
+                    background: transparent;
+                    border-radius: 4px;
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: #173A56;
+                    margin-right: 6px;
+                    display: none;
+                }
+                .hamburger_icon{
+                    font-size: 20px;
+                    display: block;
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+}

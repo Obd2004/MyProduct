@@ -1,0 +1,15 @@
+.hero{
+    &__title{
+        h1{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 60px;
+            color: #22343D;
+        }
+        img{
+            margin-top: 70px;
+        }
+    }
+}

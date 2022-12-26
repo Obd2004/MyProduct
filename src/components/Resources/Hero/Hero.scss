@@ -1,0 +1,47 @@
+.hero{
+    &__intro{
+        display: flex;
+        justify-content: space-between;
+        &__left{
+            h1{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 40px;
+                line-height: 149%;
+                letter-spacing: -0.03em;
+                color: #22343D;
+
+            }
+            p{
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 160%;
+                letter-spacing: -0.03em;
+                color: #22343D;
+
+            }
+            input{
+                border: 1px solid #EAEAEA;
+                border-radius: 100px;
+                width: 469.45px;
+                height: 66px;
+                &::placeholder{
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 100%;
+                    letter-spacing: -0.03em;
+                    color: #22343D;
+                    padding-left: 27.1px;
+                }
+            }
+            img{
+                margin-top: 24px;
+            }
+        }
+    }
+}

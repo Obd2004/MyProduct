@@ -1,0 +1,65 @@
+.content{
+    margin-top: 150px;
+    &__title{
+        h1{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 34px;
+            line-height: 51px;
+            color: #22343D;
+        }
+        p{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+            color: #22343D;
+        }
+    }
+    &__cards{
+        &__list{
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 0;
+            li{
+                width: 348px;
+                background: #FFFFFF;
+                border-radius: 8px;
+                img{
+                    border-radius: 8px 8px 0px 0px;
+                }
+                p{
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 28px;
+                    color: #22343D;
+                    margin: 15px;
+                    span{
+                        font-family: 'Poppins';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 28px;
+                        color: #22343D;
+                    }
+                }
+                h3{
+                    font-family: 'Poppins';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 40px;
+                    color: #22343D;
+                    margin: 15px;
+                }
+            }
+        }
+
+    }
+}
